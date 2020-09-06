@@ -1,0 +1,15 @@
+spring:
+  application:
+   name: This is Employee Management App
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/shopdb
+    username: root
+    password: root	
+#Hibernate properties
+  jpa:
+   properties:
+      hibernate:
+        dialect: org.hibernate.dialect.SQLServerDialect
+   hibernate:
+        ddl-auto: update
